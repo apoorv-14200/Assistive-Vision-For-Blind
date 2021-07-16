@@ -19,7 +19,7 @@ def marks():
 		path = "./static/{}".format(f.filename)# ./static/images.jpg
 		f.save(path)
 
-		caption = Caption_it.caption_this_image(path)
+		caption = caption_generate.caption_this_image(path)
 		
 		result_dic = {
 		'image' : path,
