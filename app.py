@@ -1,6 +1,6 @@
 from flask import Flask, render_template, redirect, request
 
-import Caption_it
+import caption_generate
 
 # __name__ == __main__
 app = Flask(__name__)
